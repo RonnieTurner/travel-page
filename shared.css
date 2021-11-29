@@ -1,12 +1,35 @@
 body {
   font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+  align-items: center;
 }
 
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
   color: rgb(245, 243, 160);
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0)
 }
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 250px;
+  list-style: none;
+  margin: 10px;
+}
+
+header li {
+  margin: 14px;
+  padding: 8px;
+}
+
